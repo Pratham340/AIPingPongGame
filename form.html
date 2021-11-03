@@ -5,6 +5,7 @@
   <link rel="icon" href="295128_1_-removebg-preview.png" type="image/icon type">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+<script src='https://www.google.com/recaptcha/api.js'></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -27,7 +28,7 @@
   })(document);
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1939145466308588"
-     crossorigin="anonymous"></script>
+  crossorigin="anonymous"></script>
 </head>
 
 <body background="https://i.pinimg.com/originals/58/1a/00/581a00fa93f3f43e2562ef54e89ab6e6.jpg">
@@ -48,12 +49,18 @@
     <img class="img-responsive" src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-built_black.png" style="width: 50%; margin-top:3px;">
     <img class="img-responsive" style="width: 12%;" src="animation_200_kl9groq8.gif">
 </div>
+<form method="post" onsubmit="return signIn();" required>
+  <div class="g-recaptcha" data-sitekey="6LdWCVoaAAAAAHAmYiuQ0_kjgbQvjeMl5DdJS6Tt" data-callback="verifyCaptcha" required></div>
+  <div id="g-recaptcha-error"></div>
+</form>
 <img class="topright" src="animation_500_kl9fucjb.gif">
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <div class="loader-wrapper">
     <span class="loader"><span class="loader-inner"></span></span>
   </div>
 </center>
 <div class="copy_right_footer">
+  <img class="img-responsive" style="width:4%;" ALIGN="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/1200px-RecaptchaLogo.svg.png">
   <label style="font-family:'Monoton', cursive;">Developed By Pratham</label>
 </div>
 
@@ -63,7 +70,25 @@
     $(".loader-wrapper").fadeOut("slow");
   });
 </script>
-  
+<script>
+   
+  function verifyCaptcha() {
+      document.getElementById('g-recaptcha-error').innerHTML = '';
+  }
+  </script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1939145466308588"
+crossorigin="anonymous"></script>
+<!-- ad -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-1939145466308588"
+data-ad-slot="9319277277"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 </body>
 
 </html>
