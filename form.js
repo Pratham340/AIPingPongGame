@@ -25,7 +25,7 @@
             alert("Signed Up");
             var response = grecaptcha.getResponse();
             if(response.length == 0) {
-                document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:white; font-family:sans-serif !important;">This field is required or you will be considered as  spam.</span>';
+                document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:black; font-family:sans-serif !important;">This field is required or you will be considered as  spam.</span>';
                 return false;
             }
             return true;
@@ -78,7 +78,7 @@
             
             var response = grecaptcha.getResponse();
             if(response.length == 0) {
-                document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:white; font-family:sans-serif !important;">This field is required or you will be considered as  spam.</span>';
+                document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:black; font-family:sans-serif !important;">This field is required or you will be considered as  spam.</span>';
                 return false;
             }
             return true;
