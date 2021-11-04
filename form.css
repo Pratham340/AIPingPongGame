@@ -1,5 +1,5 @@
 body{
-  font-family:'Monoton', cursive;
+font-family: 'Orbitron', sans-serif;
 overflow:hidden;
 }
 h1{
@@ -231,7 +231,7 @@ color: white !important;
            
               footer {
                 background-color: grey;
-                color: white;
+                color: black;
                 padding: 15px;
                 margin-top:5px;
               }
